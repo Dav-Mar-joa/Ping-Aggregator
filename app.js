@@ -34,7 +34,9 @@ const APPS = [
   // 'https://a-fazer.onrender.com/wake',
   // 'https://labonnepaye-3.onrender.com/wake',
   'https://morningping.onrender.com/wake',
-  // 'https://skill-up-n3xe.onrender.com'
+  // 'https://skill-up-n3xe.onrender.com',
+  'https://planning-picard.onrender.com'
+
 ];
 
 app.get('/wake', async (req, res) => {

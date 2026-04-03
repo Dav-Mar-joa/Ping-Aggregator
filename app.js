@@ -30,7 +30,7 @@ const fetch = require('node-fetch'); // si Node <18
 const app = express();
 
 const APPS = [
-  // 'https://lddm-list-2.onrender.com/wake',
+  'https://lddm-list-2.onrender.com/wake',
   // 'https://a-fazer.onrender.com/wake',
   // 'https://labonnepaye-3.onrender.com/wake',
   'https://morningping.onrender.com/wake',

@@ -35,7 +35,7 @@ const APPS = [
   // 'https://labonnepaye-3.onrender.com/wake',
   'https://morningping.onrender.com/wake',
   // 'https://skill-up-n3xe.onrender.com',
-  // 'https://planning-picard.onrender.com'
+  'https://planning-picard.onrender.com'
 
 ];
 
@@ -48,7 +48,7 @@ app.get('/wake', async (req, res) => {
   const results = await Promise.allSettled(
     APPS.map(async (url) => {
       if (url.includes('morningping')) {
-        if (!(hours === 8 && minutes >= 0 && minutes <= 30)) {
+        if (!(hours === 9 && minutes >= 00 && minutes <= 30)) {
           console.log(`Skipping ${url} | current time ${hours}:${minutes}`);
           return null;
         }

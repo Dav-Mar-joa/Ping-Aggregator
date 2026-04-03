@@ -26,7 +26,7 @@
 
 
 const express = require('express');
-const fetch = require('node-fetch'); // si Node <18
+// const fetch = require('node-fetch'); // si Node <18
 const app = express();
 
 const APPS = [

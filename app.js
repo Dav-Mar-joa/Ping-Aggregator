@@ -48,7 +48,7 @@ app.get('/wake', async (req, res) => {
   const results = await Promise.allSettled(
     APPS.map(async (url) => {
       if (url.includes('morningping')) {
-        if (!(hours === 5 && minutes >= 00 && minutes <= 50)) {
+        if (!(hours === 6 && minutes >= 00 && minutes <= 30)) {
           console.log(`Skipping ${url} | current time ${hours}:${minutes}`);
           return null;
         }

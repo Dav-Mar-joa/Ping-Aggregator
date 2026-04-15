@@ -35,7 +35,8 @@ const APPS = [
   // 'https://labonnepaye-3.onrender.com/wake',
   'https://morningping.onrender.com/wake',
   // 'https://skill-up-n3xe.onrender.com',
-  'https://planning-picard.onrender.com'
+  'https://planning-picard.onrender.com',
+  'https://shadowtalk-kvvv.onrender.com/ping'
 
 ];
 
